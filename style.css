@@ -233,10 +233,15 @@ footer p{
     top: 256vh;
     width: 40px;
 }
-.redes p{
+.redes a{
     position: absolute;
     left: 76vh;
     top: 256vh;
+    font-family: "Reddit Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 25px;
+    color: white;
 }
 
 .local h1{
