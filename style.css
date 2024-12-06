@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+
+html, body{
+    scroll-behavior: smooth; /* Serve para fazer animação de rolagem */
+}
+
+header{
+    padding: 2vh;
+    width: 100vw;
+    padding-top: 30px;
+    z-index: 1;
+    background-image: url(./img/idosos.png);
+    background-color: #009acd;
+}
+header nav{
+    text-align: right;
+}
+header nav ul{
+    display: flex;
+    gap: 39px;
+    position: absolute;
+    right: 5vw;
+    font-size: 25px;
+    list-style: none;
+}
+header nav ul a{
+    color: white;
+    padding: 8px;
+    transition: 0.5s; /* trasition -> faz uma transição para a ação (meio que um delay)  */
+    font-family: "Reddit Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+/* hover -> serve para dar um efeito quando o mouse passar  */
+/* border-bottom: 2px solid (cor) -> faz uma linha quando passar o mouse em cima */
+header nav ul a:hover{
+    color: black;
+}
+
+.grupo{
+    height: 120dvh;
+}
+#inicio{
+    background-image: url(./img/idosos.png);
+    background-color: #009acd;
+}
+#inicio h1{
+    position: absolute;
+    right: 105vh;
+    padding-top: 25vh;
+    width: 20vh;
+    font-family: "Racing Sans One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 128px;
+    color: white;
+}
+.titulo img{
+    position: absolute;
+    top: 35vh;
+    right: 127vh;
+}
+.logo img{
+    position: absolute;
+    right: 85vh;
+    top: 87vh;
+    width:250px;
+    height: 70px;
+}
+
+
+#sobre{
+    background: #b9e4ff;
+    padding-left: 10vw;
+}
+#limpeza{
+    position: absolute;
+    top: 128vh;
+    right: 5vh;
+    width: 110px;
+    height: 110px;
+}
+#produtos{
+    position: absolute;
+    top: 130vh;
+    left: 7vh;
+    width: 105px;
+    height: 105px;
+}
+#maquina{
+    position: absolute;
+    top: 152vh;
+    left: 5vh;
+    width: 85px;
+    height: 85px;
+}
+#bolhas1{
+    position: absolute;
+    top: 152vh;
+    right: 9vh;
+    width: 110px;
+    height: 110px;
+}
+#bolhas2{
+    position: absolute;
+    top: 128vh;
+    left: 80vh;
+    width: 90px;
+    height: 90px;
+}
+#retangulo_azul1{
+    position: absolute;
+    top: 152vh;
+    left: 30vh;
+    width: 250px;
+    z-index: 0;
+}
+#retangulo1{
+    position: absolute;
+    top: 149vh;
+    left: 29vh;
+    width: 130px;
+    z-index: 1;
+}
+#retangulo_azul2{
+    position: absolute;
+    top: 138vh;
+    right: 25vh;
+    width: 250px;
+    z-index: 0;
+}
+#retangulo2{
+    position: absolute;
+    top: 136vh;
+    right: 45vh;
+    width: 130px;
+    z-index: 1;
+}
+.desenhos h1{
+    position: absolute;
+    top: 145vh;
+    right: 40vh;
+    font-family: "Julius Sans One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 5vh;
+}
+
+
+.texto img{
+    position: absolute;
+    top: 165vh;
+    left: 9vh;
+    width: 190vh;
+    height: 600px;
+    z-index: 0;
+}
+.texto h1{
+    position: absolute;
+    top: 170vh;
+    color: white;
+    z-index: 1;
+    font-family: "Reddit Sans", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 60px;
+}
+.texto h2{
+    position: absolute;
+    top: 185vh;
+    right: 25vh;
+    color: white;
+    z-index: 1;
+    font-family: "Albert Sans", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 55px;
+    width: 155vh;
+    text-align: center;
+}
+
+
+footer{
+    background-color: #3c3e42;
+    width: 100vw;
+    height: 25vh ;
+}
+footer h1{
+    font-family: "Reddit Sans", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    color: white;
+}
+footer p{
+    font-family: "Reddit Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 25px;
+    color: white;
+}
+
+.contato h1{
+    padding-left: 10vh;
+    padding-top: 3vh;
+}
+.contato img{
+    padding-left: 10vh;
+    padding-top: 2vh;
+}
+.contato p{
+    position: absolute;
+    left: 16vh;
+    top: 256vh;
+}
+
+.redes h1{
+    position: absolute;
+    left: 70vh;
+    top: 249vh;
+}
+.redes img{
+    position: absolute;
+    left: 70vh;
+    top: 256vh;
+    width: 40px;
+}
+.redes p{
+    position: absolute;
+    left: 76vh;
+    top: 256vh;
+}
+
+.local h1{
+    position: absolute;
+    left: 132vh;
+    top: 249vh;
+}
+.local img{
+    position: absolute;
+    left: 132vh;
+    top: 256vh;
+    width: 40px;
+}
+.local p{
+    position: absolute;
+    left: 138vh;
+    top: 256vh;
+}
+
+.end{
+    display: flex;
+    justify-content: center;
+    padding-top: 6vh;
+    color: white;
+    font-family: "Reddit Sans", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 18px;
+}

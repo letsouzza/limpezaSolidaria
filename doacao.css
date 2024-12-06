@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+
+html, body{
+    scroll-behavior: smooth; /* Serve para fazer animação de rolagem */
+    background-color: #b9e4ff;
+}
+
+header{
+    padding: 9vh;
+    width: 100vw;
+    padding-top: 40px;
+    z-index: 1;
+    background-color: #009acd;
+}
+header nav{
+    text-align: right;
+}
+header nav ul{
+    display: flex;
+    gap: 39px;
+    position: absolute;
+    right: 5vw;
+    font-size: 25px;
+    list-style: none;
+}
+header nav ul a{
+    color: white;
+    padding: 8px;
+    transition: 0.5s; /* trasition -> faz uma transição para a ação (meio que um delay)  */
+    font-family: "Reddit Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+/* hover -> serve para dar um efeito quando o mouse passar  */
+/* border-bottom: 2px solid (cor) -> faz uma linha quando passar o mouse em cima */
+header nav ul a:hover{
+    color: black;
+}
+header img{
+    position: absolute;
+    top: 3vh;
+    left: 5vh;
+    width: 10vh;
+}
+
+.imagem img{
+    position: absolute;
+    top: 18vh;
+    right: 10vh;
+    width: 70vh;
+    height: 80vh;
+}
+.texto img{
+    position: absolute;
+    top: 20vh;
+    left: 8vh;
+    width: 88vh;
+    height: 78vh;
+}
+.texto{
+    font-family: "Reddit Sans", sans-serif;
+    font-style: normal;
+    color: white;
+}
+.texto h1{
+    position: absolute;
+    top: 25vh;
+    left: 20vh;
+    font-weight: 700;
+    font-size: 60px;
+}
+.texto span{
+    position: absolute;
+    top: 37vh;
+    left: 20vh;
+    width: 66vh;
+    font-weight: 300;
+    font-size: 36px;
+}
+.texto button a{
+    position: absolute;
+    top: 80vh;
+    left: 23vh;
+    background-color: #15008d;
+    width: 474px;
+    height: 105px;
+    color: white;
+    font-family: "Reddit Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-size: 64px;
+    border-radius: 25px;
+}

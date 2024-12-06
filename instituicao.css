@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+
+html, body{
+    scroll-behavior: smooth; /* Serve para fazer animação de rolagem */
+    background-color: #b9e4ff;
+}
+
+header{
+    padding: 9vh;
+    width: 100vw;
+    padding-top: 40px;
+    z-index: 1;
+    background-color: #009acd;
+}
+header nav{
+    text-align: right;
+}
+header nav ul{
+    display: flex;
+    gap: 39px;
+    position: absolute;
+    right: 5vw;
+    font-size: 25px;
+    list-style: none;
+}
+header nav ul a{
+    color: white;
+    padding: 8px;
+    transition: 0.5s; /* trasition -> faz uma transição para a ação (meio que um delay)  */
+    font-family: "Reddit Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+/* hover -> serve para dar um efeito quando o mouse passar  */
+/* border-bottom: 2px solid (cor) -> faz uma linha quando passar o mouse em cima */
+header nav ul a:hover{
+    color: black;
+}
+header img{
+    position: absolute;
+    top: 3vh;
+    left: 5vh;
+    width: 10vh;
+
+}
+
+#senhora{
+    position: absolute;
+    top: 20vh;
+    left: 43vh;
+    width: 50vh;
+    z-index: 1;
+}
+#senhora2{
+    position: absolute;
+    top: 45vh;
+    left: 8vh;
+    width: 50vh;
+    z-index: 0;
+}
+
+.texto img{
+    position: absolute;
+    top: 20vh;
+    right: 8vh;
+    width: 80vh;
+    height: 78vh;
+}
+.texto{
+    font-family: "Reddit Sans", sans-serif;
+    font-style: normal;
+    color: white;
+}
+.texto h1{
+    position: absolute;
+    top: 25vh;
+    right: 30vh;
+    font-weight: 700;
+    font-size: 60px;
+}
+.texto span{
+    position: absolute;
+    top: 37vh;
+    right: 14vh;
+    text-align: center;
+    width: 66vh;
+    font-weight: 300;
+    font-size: 30px;
+}
+.texto a{
+    position: absolute;
+    top: 90vh;
+    right: 12vh;
+    color: #b9e4ff;
+    font-size: 25px;
+}
+.texto a:hover{
+    color: black;
+    text-decoration: underline;
+}
